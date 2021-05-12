@@ -1,0 +1,160 @@
+@media screen and (max-width: 600px) {
+ .logo img {
+        margin-top: 335px;
+        margin-left: 16px;
+    }
+    .logo h1 {
+        color: white;
+        font-weight: normal;
+        margin-left: 79px;
+        margin-top: -56px;
+    }
+    .logo p {
+        color: black;
+        font-weight: normal;
+        margin-left: 89px;
+        margin-top: 1px;
+        font-size: 15 
+    }
+    .menu ul {
+        margin-left: 0%;
+        margin-top: 12px;
+        font-size: 19px;
+    }
+    .menu ul li {
+        float: left;
+        padding: 0px 25px;
+        list-style: none;
+    }
+    .para {
+        text-align: center;
+        width: 95%;
+        margin: 50px auto 50px;
+    }
+    .bar ul li {
+        float: left;
+        padding: 8px 10px;
+        list-style: none;
+    }
+    .item .item1 {
+        width: 100%;
+    }
+
+    .item .item1 h4 {
+        padding: 10px 19px;
+        
+    }
+    .item .item1 p {
+        padding: 0px 18px;
+    }
+    .item .item1 p:last-child {
+        padding: 0px 18px;
+    }
+    .Maecenas {
+        float: left;
+        width: 100%;
+    }
+    .Maecenas img {
+        width: 100%;
+        height: auto;
+    }
+    .para2 {
+        width: 100%;
+        float: left;
+        overflow: hidden;
+    }
+    .para2 input {
+        width: 150px;
+        height: 40px;
+        margin-left: 24%;
+        margin-top: 21px;
+        background-color: white;
+        font-size: 18px;
+        margin-bottom: 28px;
+    }
+    .bar ul li {
+        float: left;
+        padding: 8px 27px;
+        list-style: none;
+    }
+
+}
+
+
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (orientation: portrait) 
+  and (-webkit-min-device-pixel-ratio: 1) {
+    .menu ul {
+        margin-left: 61%;
+        margin-top: 7px;
+    }
+    .menu ul li {
+        float: left;
+        padding: 0px 21px;
+        list-style: none;
+    }
+    .para {
+        width: 90%;
+    }
+    .bar ul {
+        margin: 0px 0px 0px 26%;
+    }
+    .item .item1 {
+        width: 50%;
+    }
+    .Maecenas {
+        float: left;
+        width: 100%;
+    }
+    .Maecenas img {
+        width: 90%;
+        height: 275px;
+        margin-left: 5%;
+    }
+    .para2 {
+        width: 100%;
+        float: left;
+        overflow: hidden;
+    }
+    .Maecenas img {
+        width: 90%;
+        height: 275px;
+        margin-left: 5%;
+    }
+    .para2 h3 {
+        font-weight: normal;
+        font-size: 25px;
+        padding-bottom: 9px;
+        color: #1A6692;
+        padding-top: 29px;
+    }
+    .para2 input {
+        width: 126px;
+        height: 39px;
+        margin-left: 75%;
+        margin-top: 20px;
+        background-color: white;
+        font-size: 17px;
+        margin-bottom: 40px;
+    }
+
+  }
+  @media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (orientation: landscape) 
+  and (-webkit-min-device-pixel-ratio: 1) {
+    .item .item1 img {
+        width: 87%;
+        height: 285px;
+    }
+
+
+
+
+
+
+
+}
